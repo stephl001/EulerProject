@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="Common.fs" />
+    <Compile Include="Euler6.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="test.fsx" />
   </ItemGroup>
 
 </Project>
